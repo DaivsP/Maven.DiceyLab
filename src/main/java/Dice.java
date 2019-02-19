@@ -9,7 +9,7 @@ public class Dice {
         Integer sumTosses = 0;
 
         for (int i = 0; i < this.numberOfDice; i++) {
-            sumTosses += (int) (Math.random()*6)+1;
+            sumTosses += (int) (Math.random()*6) + 1;
         }
         return sumTosses;
     }
